@@ -1,0 +1,29 @@
+Git Status returns the current state of the repository /current working branch/ if a file is in the staging area, but not commited.
+
+Usage:
+
+$ git status
+
+In Practice:
+
+# Message when files have not been staged (git add)
+$ git status
+On branch SecretTesting
+Untracked files:
+  (use "git add <file>..."to include in what will be  commited)
+  
+     homepage/index.html
+     
+# Message when files have been not been commited (git commit)
+$git status
+On branch SecretTesting
+Your branch is up-to-date with 'origin/SecretTesting'.
+Changes to be committed:
+    (use "git reset HEAD <file>..." to unstage)
+    
+      new file:   homepage/index.html
+      
+# Message when all files have been staged an committed
+$ git status
+on branch SecretTesting
+nothing to commit, working directory clean
