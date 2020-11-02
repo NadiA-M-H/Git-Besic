@@ -1,0 +1,15 @@
+Git Config is assigning different settings and cofiguration which are on Git.
+
+Usage:
+
+$ git config<setting> <command>
+
+In Practice:
+
+# Running git config globally
+$ git config --global user.email "my@emailadress.com"
+$ git config --global user.name "Brian"
+
+# Running git config on the current repository settings
+$ git config user.email "my@emailadress.com"
+$ git config user.name "Brian"
