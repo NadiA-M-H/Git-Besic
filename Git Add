@@ -1,0 +1,16 @@
+Adds file in the staging area of Git. The file needs to be added to the Git index before it commits to repository.
+ 
+Usage:
+
+$ git add<file or directory name>
+
+In practice:
+
+# To add all file not staged:
+$ git add .
+
+# To stage a specific file:
+$ git add index.html
+
+# To stage an entire directory:
+$ git add css
