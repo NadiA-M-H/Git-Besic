@@ -1,0 +1,19 @@
+To connect a local repository with a remote repository.
+
+Usage:
+
+# Add remote repository
+$ git remote <command> <remote_name> <remote_URL>
+
+# List named remote repositories
+$ git remote -v
+
+In Practice:
+
+# Adding a remote repository with the name of beans
+$ git remote add origin git@account_name.git.beans.com:/account_name/repository_name.git
+
+# list named remote repositories
+$ git remote -v
+origin git@account_name.git.beansapp.com:/account_name/repository_name.git (fetch)
+origin git@account_name.git.beansapp.com:/account_name/repository_name.git (push)
