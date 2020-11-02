@@ -1,0 +1,18 @@
+Git init is the first step in creating a repository.
+
+ Usage
+
+# Change directory to codebase:
+$ cd/file/path/to/code
+
+# Make directory a git repository
+$ git init
+
+ In Practice
+
+# Change directory to codebase:
+$ cd/users/commputer-name/documents/website
+
+# Make directory a git repository:
+$ git init
+//Initialized empity Git repository in/users/computer-name/documents/website/.git/
