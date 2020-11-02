@@ -1,0 +1,13 @@
+Record the changes made to the files to a local repository.
+
+Usage:
+
+# Adding a commit with message
+$ git commit -m "Commit message in quotes"
+
+In Practice:
+
+$ git commit -m " my first commit message"
+[SecretTesting 0254c3d] my first commit message
+1 file changed, 0 insertions(+), 0 deletions(-)
+create mode 100644 homepage/index.html
