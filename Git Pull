@@ -1,0 +1,21 @@
+Git pull changes from the remote repository to the local computer. to get latest version of a repository run git pull.
+
+Usage:
+
+$ git pull <branch_name> <remote_URL/remote_name>
+
+In Practice:
+
+# pull from named remote
+$ git pull origin staging
+From account_name.git.beansapp.com/account_name/repository_name
+ * branch              staging     ->FETCH_HEAD
+ * [new branch]        staging     ->origin/staging
+ Already up-to-date.
+ 
+ # Pull from URL (not frequently used)
+ $ git pull@account_name.git.beansapp.com:/account_name/repository_name.git staging
+ From account_name.git.beansapp.com:/account_name/repository_name
+  * branch            staging      -> FETCH_HEAD
+  * [new branch]      staging      ->origin/staging
+  Already up-to-date.
