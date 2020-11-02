@@ -1,0 +1,19 @@
+Git Checkout is uses to switch branches to work on different branches.
+
+Usage:
+
+# Checkout an existing branch
+$ git checkout <branch_name>
+
+# Checkout and create a new branch with that name
+$ git checkout -b <new_branch>
+
+In Practice:
+
+# Switching to branch 'new_feature'
+$ git cheackout new_feature
+Switched to branch 'new_feature'
+
+# Creating and switching to branch 'staging'
+$ git checkout -b staging
+Switched to a new branch 'staging'
