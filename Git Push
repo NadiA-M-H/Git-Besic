@@ -1,0 +1,32 @@
+Send local commits to the remote repository. Git push requiers two parameters: the remote repository and the branch that the push is for.
+
+Usage:
+
+$ git push <remote_URL/remote_name> <branch>
+
+# Push all local branches to remote repository
+$ git push -all
+
+In Practice:
+
+# Push a specific branch to a remote with named remote
+$ git push origin staging
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 734 bytes | bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+TO git@account_name.git.beansapp.com:/account_name/repository_name.git
+    ad189cd..0254c3d SecretTesting -> SecretTesting
+    
+# Push all local branches to remote repository
+$ git push --all
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Comparession objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 373 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas 100% (2/2), complated with 2 local objects.
+To git@account_name.git.beansapp.com:/account_name/repository_name.git
+0d56917..948ac97 master -> master
+ad189cd..0254c3d SecretTesting ->SecretTesting
