@@ -1,0 +1,15 @@
+Git clone uses to copy and download the repository to computer.
+
+Usage:
+
+$ git clone <remote_URL>
+
+In Practice:
+
+$ git clone git@account_name.git.beansapp.com:/account_name.git
+Cloning in to'repository_name'...
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 0), reused 0(delta 0)
+reciving objects: 100% (5/5), 3.08 KiB | 0 bytes/s, done.
+Checking connectivity... done.
